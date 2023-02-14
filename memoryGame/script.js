@@ -52,7 +52,10 @@ const randomize = () => {
 const cardGenerator = () => {
   const cardData = randomize();
 
-  const player = prompt("Enter Your Name: ");
+  let player = prompt("Enter Your Name: ");
+  if (player === "") {
+    player = "Anonymous";
+  }
 
   playerName.textContent = player;
 
@@ -151,7 +154,7 @@ const restart = (text) => {
       faces[index].src = item.imgScr;
       cards[index].setAttribute("name", item.name);
       section.style.pointerEvents = "all";
-      section.style.setProperty("grid-gap", "2rem");
+      section.style.setProperty("grid-gap", "1rem");
     }, 1000);
   });
 
