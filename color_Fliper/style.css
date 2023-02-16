@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: blueviolet; */
+  background-color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.container {
+  /* background-color: blueviolet; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  margin: 300px;
+}
+
+.container > div {
+  width: 700px;
+  height: 80px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.container > div > h1 {
+  display: flex;
+  padding: 20px 0;
+}
+
+.container button {
+  width: 200px;
+  height: 60px;
+
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.container button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.colorCode {
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 20px;
+  color: #49a6e9;
+}
+
+span {
+  font-size: 20px;
+  font-weight: 600;
+  color: #49a6e9;
+}
+
+span > a:link,
+span > a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+span > a:hover,
+span > a:active {
+  color: #49a6e9;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}
