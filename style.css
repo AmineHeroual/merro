@@ -112,4 +112,9 @@ a {
   ul {
     flex-direction: column;
   }
+
+  ul > li > a > img {
+    width: 60%;
+    height: 60%;
+  }
 }
