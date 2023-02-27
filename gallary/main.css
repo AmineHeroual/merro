@@ -1,0 +1,122 @@
+body {
+  background-color: #000;
+  overflow-x: hidden;
+}
+#blob {
+  background: linear-gradient(to right, aquamarine, mediumpurple);
+  background-color: #fff;
+  height: 600px;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+
+  animation: rotate 20s infinite;
+
+  filter: blur(100px);
+  opacity: 0.5;
+}
+
+#blur {
+  height: 150px;
+  aspect-ratio: 1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  z-index: 2;
+  backdrop-filter: blur(200px);
+  opacity: 0.1;
+}
+
+#amine {
+  color: #fff;
+  font-size: 5vmax;
+  font-family: "Space Mono", monospace;
+  margin-top: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+  display: grid;
+  place-items: center;
+}
+
+#wrapper {
+  aspect-ratio: 1.618;
+  width: 90vmin;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper > .shape {
+  height: 30%;
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  transition: left, top, height, width, border-radius;
+  transition-duration: 750ms;
+  transition-timing-function: ease-in-out;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper > .shape > a:link,
+#wrapper > .shape > a:visited {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+#wrapper > .shape:nth-child(1) {
+  background-color: rgb(176, 190, 197);
+}
+
+#wrapper > .shape:nth-child(2) {
+  background-color: rgb(155, 93, 229);
+}
+
+#wrapper > .shape:nth-child(3) {
+  background-color: rgb(245, 245, 197);
+}
+
+#wrapper > .shape:nth-child(4) {
+  background-color: rgb(241, 91, 183);
+}
+
+#wrapper > .shape:nth-child(5) {
+  background-color: rgb(254, 228, 64);
+}
+
+#wrapper > .shape:nth-child(6) {
+  background-color: rgb(0, 187, 249);
+}
+
+#wrapper > .shape:nth-child(7) {
+  background-color: rgb(90, 134, 255);
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  50% {
+    scale: 1 1.5;
+  }
+  to {
+    rotate: 360deg;
+  }
+}

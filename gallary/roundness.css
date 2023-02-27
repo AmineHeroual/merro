@@ -1,0 +1,40 @@
+#wrapper[data-roundness="1"] > .shape {
+  border-radius: 6rem;
+}
+
+#wrapper[data-roundness="2"] > .shape {
+  border-radius: 0rem;
+}
+
+#wrapper[data-roundness="3"] > .shape {
+  border-radius: 30rem;
+}
+
+#wrapper[data-roundness="4"] > .shape:nth-child(1) {
+  border-bottom-left-radius: 10rem;
+}
+
+#wrapper[data-roundness="4"] > .shape:nth-child(2) {
+  border-radius: 20rem;
+}
+
+#wrapper[data-roundness="4"] > .shape:nth-child(3) {
+  border-top-right-radius: 12rem;
+}
+
+#wrapper[data-roundness="4"] > .shape:nth-child(4) {
+  border-top-right-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+}
+
+#wrapper[data-roundness="4"] > .shape:nth-child(5) {
+  border-bottom-left-radius: 10rem;
+}
+
+#wrapper[data-roundness="4"] > .shape:nth-child(6) {
+  border-top-left-radius: 10rem;
+}
+
+#wrapper[data-roundness="4"] > .shape:nth-child(7) {
+  border-top-left-radius: 10rem;
+}

@@ -1,0 +1,48 @@
+#wrapper[data-configuration="3"] > .shape:nth-child(1) {
+  left: 0%;
+  top: 16.5%;
+  height: 32%;
+  width: 20%;
+}
+
+#wrapper[data-configuration="3"] > .shape:nth-child(2) {
+  left: 20%;
+  top: 2.7%;
+  height: 55%;
+  width: 34%;
+}
+
+#wrapper[data-configuration="3"] > .shape:nth-child(3) {
+  left: 38%;
+  top: 0%;
+  height: 100%;
+  width: 62%;
+}
+
+#wrapper[data-configuration="3"] > .shape:nth-child(4) {
+  left: 0%;
+  top: 47.3%;
+  height: 55%;
+  width: 34%;
+}
+
+#wrapper[data-configuration="3"] > .shape:nth-child(5) {
+  left: 34%;
+  top: 56.4%;
+  height: 32%;
+  width: 20%;
+}
+
+#wrapper[data-configuration="3"] > .shape:nth-child(6) {
+  left: 66%;
+  top: 45%;
+  height: 55%;
+  width: 34%;
+}
+
+#wrapper[data-configuration="3"] > .shape:nth-child(7) {
+  left: 80%;
+  top: 68%;
+  height: 32%;
+  width: 20%;
+}
